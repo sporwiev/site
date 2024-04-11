@@ -1,0 +1,16 @@
+.animate {
+	margin-top:5em;
+	width:50px;
+	height:50px;
+	background:black;
+    animation: 20s infinite alternate block;
+}
+@keyframes block {
+	1%{transform:translate(0px, 0px)}
+	15%{transform:translate(20em, 0px)}
+	30%{width:25px;}
+	45%{transform:translate(40em, 0px)}
+	60%{width:50px;}
+	75%{transform:translate(81em, 0px)}
+	100%{transform:translate(0px, 0px)}
+}
